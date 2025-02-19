@@ -1,8 +1,10 @@
+/*NDSU image styling*/
 .bordered-image {
     border: 10px solid green;
     border-radius: 30px;
 }
 
+/*card styling*/
 .card {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -74,7 +76,7 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
-/* Optional: Add some spacing and styling to the container */
+/*Carousel Styling*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
