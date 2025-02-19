@@ -1,0 +1,57 @@
+/* Header Styles */
+.navbar {
+    background: linear-gradient(145deg, #343a40, #2c3136);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #ffcc00;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(145deg, #343a40, #2c3136);
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid #ffcc00;
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Add a subtle floating animation */
+@keyframes float-footer {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+footer {
+    animation: float-footer 4s ease-in-out infinite;
+    /* Apply floating animation */
+}

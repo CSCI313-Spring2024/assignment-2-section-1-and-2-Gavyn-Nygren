@@ -1,0 +1,45 @@
+/*Make changes to my introduction header*/
+h2 {
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 350;
+    color: rgb(83, 71, 71);
+    text-decoration: underline;
+}
+
+/* Background color for my picture and address information*/
+.custom-bg-color {
+    background-color: #ececaedd;
+}
+
+/* Chage color and font of bio paragraph */
+#bio {
+    color: gray;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+/* Ensure the html and body take up the full height of the viewport */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make the body a flex container */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure the main content area expands to fill the remaining space */
+.container {
+    flex: 1;
+}
+
+/* Footer styling */
+footer {
+    flex-shrink: 0;
+    /* Prevent the footer from shrinking */
+}
